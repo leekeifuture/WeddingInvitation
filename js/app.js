@@ -11,7 +11,7 @@ window.progress = progress;
 window.pagination = pagination;
 
 document.addEventListener("DOMContentLoaded", function () {
-  const targetDate = new Date("August 3, 2024 15:00:00").getTime();
+  const targetDate = new Date("October 12, 2024 14:30:00").getTime();
 
   function getDeclension(number, one, two, five) {
     if (number % 10 == 1 && number % 100 != 11) {

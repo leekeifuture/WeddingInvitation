@@ -31,7 +31,7 @@ export const util = (() => {
             .replace(/'/g, '&#039;');
     };
 
-    const disableButton = (button, message = 'Loading..') => {
+    const disableButton = (button, message = 'Loading…') => {
 
         button.disabled = true;
         let tmp = button.innerHTML;
